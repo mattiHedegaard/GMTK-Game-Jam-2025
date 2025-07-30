@@ -1,9 +1,17 @@
-inDir = -1;
-outDir = -1;
-
-enum DIRECTIONS {
-	NORTH,
-	SOUTH,
-	EAST,
-	WEST
+enum DIR {
+	//STRAGHIT
+	WE,
+	EW,
+	SN,
+	NS,
+	//TURNING
+	WN,
+	WS,
+	SW,
+	SE,
+	ES,
+	EN,
+	NE,
+	NW
 }
+

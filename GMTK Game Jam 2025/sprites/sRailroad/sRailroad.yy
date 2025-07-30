@@ -13,9 +13,17 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"2392f1bf-47b2-406a-b1fd-44088adae17a","name":"2392f1bf-47b2-406a-b1fd-44088adae17a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"dcef5295-a6ae-47de-94a4-d7cb84ac4550","name":"dcef5295-a6ae-47de-94a4-d7cb84ac4550","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"b2f08bc7-d1bd-4902-b797-d5151b6b5386","name":"b2f08bc7-d1bd-4902-b797-d5151b6b5386","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e4ffbfcc-a835-4c59-b461-95eb252e5708","name":"e4ffbfcc-a835-4c59-b461-95eb252e5708","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"aba9bb9f-a439-4588-b494-329ef40f4d41","name":"aba9bb9f-a439-4588-b494-329ef40f4d41","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"29a8743b-01ee-4bcf-8a13-d6a1fe048fdc","name":"29a8743b-01ee-4bcf-8a13-d6a1fe048fdc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"aadf16e2-6d7f-444d-a8bc-866c8ebb191d","name":"aadf16e2-6d7f-444d-a8bc-866c8ebb191d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f923e1e1-39ba-4372-abae-2c3b9dfb81a8","name":"f923e1e1-39ba-4372-abae-2c3b9dfb81a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"ed228e20-7df2-42e0-b7a3-78cbbc030719","name":"ed228e20-7df2-42e0-b7a3-78cbbc030719","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"161e2eb3-52bb-424c-9879-2f5792863f2f","name":"161e2eb3-52bb-424c-9879-2f5792863f2f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a5362bbe-6005-4869-98df-00fdd8b3683b","name":"a5362bbe-6005-4869-98df-00fdd8b3683b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"acbf6c6f-c8da-42bd-bf39-3dbfbab65393","name":"acbf6c6f-c8da-42bd-bf39-3dbfbab65393","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":4,
   "gridY":4,
@@ -52,7 +60,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":4.0,
+    "length":12.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -77,14 +85,38 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2392f1bf-47b2-406a-b1fd-44088adae17a","path":"sprites/sRailroad/sRailroad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"171ae203-7520-4e47-b451-90e8f2e5b35a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dcef5295-a6ae-47de-94a4-d7cb84ac4550","path":"sprites/sRailroad/sRailroad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d41d355d-bce0-41f6-b221-3ad8bb5a5dae","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b2f08bc7-d1bd-4902-b797-d5151b6b5386","path":"sprites/sRailroad/sRailroad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8cdb8c39-8abe-41b4-84cb-b1a51028685f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"8cdb8c39-8abe-41b4-84cb-b1a51028685f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e4ffbfcc-a835-4c59-b461-95eb252e5708","path":"sprites/sRailroad/sRailroad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a23ec25d-3121-4f65-860c-f4a19a6fa441","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aba9bb9f-a439-4588-b494-329ef40f4d41","path":"sprites/sRailroad/sRailroad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3793ed20-db7e-45cc-b159-c19778dd2930","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"3793ed20-db7e-45cc-b159-c19778dd2930","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"29a8743b-01ee-4bcf-8a13-d6a1fe048fdc","path":"sprites/sRailroad/sRailroad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a34a8b96-edd3-496a-9510-b6398c105b50","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aadf16e2-6d7f-444d-a8bc-866c8ebb191d","path":"sprites/sRailroad/sRailroad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"74d21792-0251-47e6-a44a-671a9ada2208","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f923e1e1-39ba-4372-abae-2c3b9dfb81a8","path":"sprites/sRailroad/sRailroad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8e6e4607-3d3d-40cb-bbea-e23a09c3af07","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ed228e20-7df2-42e0-b7a3-78cbbc030719","path":"sprites/sRailroad/sRailroad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cb58a696-71ef-4d52-90da-9f5895e7d2cd","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"cb58a696-71ef-4d52-90da-9f5895e7d2cd","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"161e2eb3-52bb-424c-9879-2f5792863f2f","path":"sprites/sRailroad/sRailroad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"53cef0b1-17ab-45ed-8d07-735f0dfa12f6","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a5362bbe-6005-4869-98df-00fdd8b3683b","path":"sprites/sRailroad/sRailroad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"28d90c25-b606-436d-94d7-55eb51a48969","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"acbf6c6f-c8da-42bd-bf39-3dbfbab65393","path":"sprites/sRailroad/sRailroad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5b1ce0cd-e6b0-4e01-aa3b-29c4958bb7d9","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

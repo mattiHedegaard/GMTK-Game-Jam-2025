@@ -14,11 +14,11 @@ var color = argument[3];
 
 draw_set_color(color);
 
-for (var i = 1; i < RES_HEIGHT; i += height){
+for (var i = 0; i < RES_HEIGHT; i += height){
 	draw_line_width(0,i,RES_WIDTH,i,lineWidth);
 }
 
-for (var i = 1; i < RES_WIDTH; i += width){
+for (var i = 0; i < RES_WIDTH; i += width){
 	draw_line_width(i,0,i,RES_HEIGHT,lineWidth);
 }
 
