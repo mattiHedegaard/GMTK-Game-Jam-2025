@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"turning",
-    "path":"folders/Sprites/Level Sprites/Railroads/turning.yy",
+    "name":"OLD sprites",
+    "path":"folders/Sprites/Level Sprites/Railroads/OLD sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

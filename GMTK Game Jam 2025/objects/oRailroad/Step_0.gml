@@ -1,1 +1,1 @@
-image_index = imgIndex;
+if (place_meeting(x,y,oTrain)) occupied = true; else occupied = false;

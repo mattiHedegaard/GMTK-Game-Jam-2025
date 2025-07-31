@@ -3,22 +3,24 @@
 function Draw_Grid(){
 /// @arg width
 /// @arg height
+/// @arg offset
 /// @arg lineWidth
 /// @arg color
 	
 var width = argument[0];
 var height = argument[1];
+var offset = argument[2]
 
-var lineWidth = argument[2];
-var color = argument[3];
+var lineWidth = argument[3];
+var color = argument[4];
 
 draw_set_color(color);
 
-for (var i = 0; i < RES_HEIGHT; i += height){
+for (var i = offset; i < RES_HEIGHT; i += height){
 	draw_line_width(0,i,RES_WIDTH,i,lineWidth);
 }
 
-for (var i = 0; i < RES_WIDTH; i += width){
+for (var i = offset; i < RES_WIDTH; i += width){
 	draw_line_width(i,0,i,RES_HEIGHT,lineWidth);
 }
 

@@ -1,0 +1,1 @@
+if (!global.gamePause) script_execute(state);
