@@ -18,7 +18,7 @@ var color;
 if (add){
 	mp = 1;
 	plusOrMinus = "+";
-	color = c_white;
+	color = c_yellow;
 }else {
 	mp = -1;
 	plusOrMinus = "-";
@@ -29,7 +29,8 @@ var actualAmount = amount*mp;
 
 
 var currMoney = instance_create_layer(where[0],where[1],"Passengers",oTextEffect);
-currMoney.text = plusOrMinus+string(amount);
+currMoney.text = plusOrMinus+string(amount)+" $";
 currMoney.color = color;
+global.money += actualAmount;
 
 }

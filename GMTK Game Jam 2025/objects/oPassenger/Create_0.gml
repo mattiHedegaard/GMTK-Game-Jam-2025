@@ -1,5 +1,5 @@
-patients = random_range(-10,25)+50*FPS;
-
+patients = (random_range(-10,70)+40)*FPS;
+show_debug_message(patients)
 
 firstClass = false;
 firstClassChance = 10;

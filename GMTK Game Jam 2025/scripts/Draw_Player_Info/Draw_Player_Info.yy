@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Draw_Player_Info",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Draw_Player_Info",
+  "parent":{
+    "name":"PlayerUI",
+    "path":"folders/Scripts/PlayerUI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

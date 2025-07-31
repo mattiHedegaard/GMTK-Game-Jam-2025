@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fDogica",
+  "%Name":"fDogica_big",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":9,
@@ -118,7 +118,7 @@
   "last":0,
   "lineHeight":8,
   "maintainGms1Font":false,
-  "name":"fDogica",
+  "name":"fDogica_big",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

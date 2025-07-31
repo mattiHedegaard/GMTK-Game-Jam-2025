@@ -1,5 +1,8 @@
 train = noone;
 color = c_white;
 
-braking = false;
-stopped = false;
+braking = true;
+stopped = true;
+
+flipDelayMax = 2*FPS;
+flipDelay = 0;

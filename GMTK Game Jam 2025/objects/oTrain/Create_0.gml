@@ -21,8 +21,8 @@ dropPassengerTimerMax = 1*FPS;
 dropPassengerTimer = dropPassengerTimerMax;
 
 state = sm_train_driving;
-braking = false;
-stopped = false;
+braking = true;
+stopped = true;
 brakeLever = noone;
 
 track = noone;
