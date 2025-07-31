@@ -18,13 +18,14 @@ var color;
 if (add){
 	mp = 1;
 	plusOrMinus = "+";
-	color = c_yellow;
+	color = c_green;
 }else {
 	mp = -1;
 	plusOrMinus = "-";
 	color = c_purple;
 }
-if (firstClass) color = c_red;
+if (firstClass and !add) color = c_red;
+if (firstClass and add) color = c_yellow;
 var actualAmount = amount*mp;
 
 

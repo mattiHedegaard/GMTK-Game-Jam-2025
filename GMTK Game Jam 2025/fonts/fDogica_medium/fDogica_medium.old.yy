@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fDogica_medium_small",
+  "%Name":"fDogica_medium",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":9,
@@ -118,7 +118,7 @@
   "last":0,
   "lineHeight":8,
   "maintainGms1Font":false,
-  "name":"fDogica_medium_small",
+  "name":"fDogica_medium",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -135,7 +135,10 @@
   "sdfSpread":8,
   "size":6.0,
   "styleName":"Regular",
-  "textureGroupId":null,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
   "TTFName":"",
   "usesSDF":false,
 }
