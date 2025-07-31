@@ -10,6 +10,16 @@ enum TRAIN_DIR {
 	DOWN
 }
 
+currPassengers = 0;
+maxPassengers = 8;
+takePassengerTimerMax = 1*FPS;
+takePassengerTimer = takePassengerTimerMax;
+passengerArray =[];
+filling = false;
+
+dropPassengerTimerMax = 1*FPS;
+dropPassengerTimer = dropPassengerTimerMax;
+
 state = sm_train_driving;
 braking = false;
 stopped = false;

@@ -1,2 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+passengerTimerMax = 5*FPS;
+passengerTimer = passengerTimerMax;
+currPassengers = 0;
+
+passengerArray =[];

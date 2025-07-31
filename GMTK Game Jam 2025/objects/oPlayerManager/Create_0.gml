@@ -1,2 +1,2 @@
 global.money = 0;
-global.globalPatients = 100;
+global.globalPatients = 10;

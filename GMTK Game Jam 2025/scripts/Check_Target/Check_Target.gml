@@ -54,6 +54,7 @@ if (track.occupied){
 			if (altTrack.occupied or altTrack.notThisWay) continue; else{
 				targetX = altTrack.x;
 				targetY = altTrack.y;
+				track = altTrack;
 				dir = dirTranslatorArray[j];
 				braking = false;
 				brakeLever.braking = braking;

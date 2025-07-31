@@ -1,4 +1,5 @@
 occupied = false;
+occupiedBy = noone;
 
 touchingArray = [
 	false, //left

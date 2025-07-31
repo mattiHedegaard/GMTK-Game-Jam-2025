@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Change_Money",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Change_Money",
+  "parent":{
+    "name":"playerControls",
+    "path":"folders/Scripts/playerControls.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
