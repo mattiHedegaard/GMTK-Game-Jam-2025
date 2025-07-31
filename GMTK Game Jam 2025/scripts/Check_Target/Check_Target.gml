@@ -22,7 +22,7 @@ var dirTranslatorArray = [
 ]
 
 for (var i = 0; i < array_length(checkAnglesArray); i++){
-		var track = collision_point(
+		track = collision_point(
 		x + lengthdir_x(checkDis,imAng + checkAnglesArray[i]),
 		y + lengthdir_y(checkDis,imAng + checkAnglesArray[i]),
 		oRailroad,
@@ -34,38 +34,42 @@ for (var i = 0; i < array_length(checkAnglesArray); i++){
 		targetX = track.x;
 		targetY = track.y;
 		dir = dirTranslatorArray[i];
-			
-		if (track.occupied){
-			// look for alternate route if ccupied
-			for (var j = array_length(checkAnglesArray)-1; j > 0; j--){
-				var altTrack = collision_point(
-					x + lengthdir_x(checkDis,imAng + checkAnglesArray[j]),
-					y + lengthdir_y(checkDis,imAng + checkAnglesArray[j]),
-					oRailroad,
-					true,
-					true
-				)
-				if (altTrack != noone){
-					targetX = altTrack.x;
-					targetY = altTrack.y;
-					dir = dirTranslatorArray[i];
-				}
-				if (altTrack != noone){
-					if (altTrack.occupied or altTrack.notThisWay){
-						braking = true;
-						brakeLever.braking = braking;
-						emergencyBrakeMp = emergencyBrakeMpMax;
-					}
-				}
-			}
-		}
+
 		break;
 	}
 }
+if (track.occupied){
+	var altTrack = noone;
+	// look for alternate route if ccupied
+	for (var j = 0; j < array_length(checkAnglesArray); j++){
+		altTrack = collision_point(
+			x + lengthdir_x(checkDis,imAng + checkAnglesArray[j]),
+			y + lengthdir_y(checkDis,imAng + checkAnglesArray[j]),
+			oRailroad,
+			true,
+			true
+		)
+		
+		if (altTrack != noone){
+			if (altTrack.occupied or altTrack.notThisWay) continue; else{
+				targetX = altTrack.x;
+				targetY = altTrack.y;
+				dir = dirTranslatorArray[j];
+				braking = false;
+				brakeLever.braking = braking;
+				emergencyBrakeMp = 1;
+			}
+		}else{
+			braking = true;
+			brakeLever.braking = braking;
+			emergencyBrakeMp = emergencyBrakeMpMax;
+		}
+	}
+}
+
 
 var value = [targetX, targetY];
 nowTurningDir = dir;
-degreesLeftToTurn = 90;
 
 return value;
 }

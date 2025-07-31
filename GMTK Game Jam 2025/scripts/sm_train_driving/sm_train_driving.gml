@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sm_train_driving(){
 targetSpd = maxSpd;
+
 if (braking) targetSpd = 0;
 if (stopped){
 	targetSpd = 0;
@@ -16,6 +17,7 @@ if (spd < targetSpd and !braking and !stopped){
 if (spd > targetSpd and braking and !stopped){
 	spd -= spd/(deaccalarationSpd/emergencyBrakeMp);
 }
+//stop train fully
 if (spd <= 0.1 and braking){
 	spd = 0;
 	targetSpd = 0;
@@ -24,13 +26,14 @@ if (spd <= 0.1 and braking){
 	emergencyBrakeMp = 1;
 }
 
-
+//check new destination
 if (!movingToTarget){
 	targetArray = Check_Target();
 	movingToTarget = true;
 }
 
-var dir = point_direction(x,y,targetArray[0],targetArray[1]);
+//turn the train
+if (nowTurningDir = 0) degreesLeftToTurn = 90;
 if (degreesLeftToTurn > 0){
 	//Turning left
 	if (nowTurningDir == 1){
@@ -44,10 +47,12 @@ if (degreesLeftToTurn > 0){
 		degreesLeftToTurn -= turningSpd;
 	}
 }
+else nowTurningDir = 0;
 
 if (array_length(targetArray) == 2 and targetArray[0] != -1 and targetArray[1] != -1){
 	var magnitude = spd;
 	var dis = point_distance(x,y,targetArray[0],targetArray[1])
+	var dir = point_direction(x,y,targetArray[0],targetArray[1]);
 	
 	if (dis > 0){
 		x += lengthdir_x(spd,dir);
@@ -58,11 +63,10 @@ if (array_length(targetArray) == 2 and targetArray[0] != -1 and targetArray[1] !
 		}
 	}
 
-;}
+}
 else{
-	show_debug_message("error in train target");
+	show_debug_message($"error in train target, train: {trainId}");
 	targetArray = -1;
 	targetArray = -1;
 }
-show_debug_message(braking)
 }

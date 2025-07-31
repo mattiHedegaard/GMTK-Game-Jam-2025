@@ -15,6 +15,7 @@ braking = false;
 stopped = false;
 brakeLever = noone;
 
+track = noone;
 targetArray = [-1,-1,0];
 movingToTarget = false;
 spd = 0;
