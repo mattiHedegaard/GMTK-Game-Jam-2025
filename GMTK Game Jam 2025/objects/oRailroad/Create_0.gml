@@ -1,5 +1,28 @@
+//sprites
+curveSprite = sRailroadTurning;
+straightSprite = sRailroad;
+
 occupied = false;
 occupiedBy = noone;
+
+wreckTimerMax = random_range(20,500)*FPS;
+wreckTimer = wreckTimerMax;
+isWrecked = false;
+wreckType = noone;
+broken = false;
+wrecked = false;
+
+//broken rail
+repairClicks = round(random_range(2,5));
+repaired = false;
+fixCost = random_range(10,20);
+costPerClick = fixCost/repairClicks;
+repairIcon = noone;
+clickDelayMax = 1*FPS;
+clickDelay = 0;
+
+//obstacle
+obstacle = noone;
 
 touchingArray = [
 	false, //left

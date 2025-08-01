@@ -8,8 +8,8 @@
   "name":"oNextLevelBtn",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/buttons.yy",
+    "name":"buttons and icons",
+    "path":"folders/Objects/buttons and icons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

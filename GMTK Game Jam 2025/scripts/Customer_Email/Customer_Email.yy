@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Customer_Email",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Customer_Email",
+  "parent":{
+    "name":"challenges",
+    "path":"folders/Scripts/challenges.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

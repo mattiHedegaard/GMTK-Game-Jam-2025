@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Show_Turtorial",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Show_Turtorial",
+  "parent":{
+    "name":"Turtorials",
+    "path":"folders/Scripts/Turtorials.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

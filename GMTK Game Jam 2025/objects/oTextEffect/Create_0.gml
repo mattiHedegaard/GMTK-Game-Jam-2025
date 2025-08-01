@@ -4,7 +4,7 @@ yOffset = random_range(-1,2);
 xDir = choose(-0.5,0.5);
 xSpd = 0.1;
 ySpdModifier = random_range(-0.08,0.08);
-ySpd = 0.1+ySpdModifier;
+ySpd = 0.8+ySpdModifier;
 
 //set when creating
 color = c_white;

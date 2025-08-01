@@ -1,2 +1,2 @@
 /// @desc Pause
-global.gamePause = !global.gamePause;
+global.turtorialPause = !global.turtorialPause;

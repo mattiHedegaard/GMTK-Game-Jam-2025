@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Railroad_Broken_Rail",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Railroad_Broken_Rail",
+  "parent":{
+    "name":"Railroads",
+    "path":"folders/Scripts/challenges/Railroads.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

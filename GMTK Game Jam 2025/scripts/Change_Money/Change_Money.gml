@@ -1,10 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Change_Money(){
-/// @arg add(bool)
-/// @arg amount(int)
-/// @arg where([x,y])
-/// @arg firstclass(boool)
+/// @arg add (bool)
+/// @arg amount (int)
+/// @arg where ([x,y])
+/// @arg firstclass (boool)
 
 var add = argument[0];
 var amount = argument[1];
