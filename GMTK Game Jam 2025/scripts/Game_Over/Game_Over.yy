@@ -6,7 +6,7 @@
   "name":"Game_Over",
   "parent":{
     "name":"Game controole",
-    "path":"folders/Rooms/Game controole.yy",
+    "path":"folders/Scripts/Game controole.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

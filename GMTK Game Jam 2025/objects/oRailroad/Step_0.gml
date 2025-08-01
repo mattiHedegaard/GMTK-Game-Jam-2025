@@ -9,8 +9,8 @@ if (!global.gamePause and !global.turtorialPause){
 	}
 	
 	//wreck railroads
-	if (!noWrecks and global.wreckedRailsNumber < oLevelManager.maxWreckedRails){
-		if (wreckTimer > 0 and !isWrecked) wreckTimer--;
+	if (!noWrecks){
+		if (wreckTimer > 0 and !isWrecked and global.wreckedRailsNumber < oLevelManager.maxWreckedRails) wreckTimer--;
 	
 		if (wreckTimer <= 0){
 			if (!wrecked) wreckType = choose(Railroad_Broken_Rail,Railroad_Obstacle);

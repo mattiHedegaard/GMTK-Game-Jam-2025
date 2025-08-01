@@ -27,6 +27,7 @@ if (mouse_check_button_pressed(mb_left) and clickDelay <= 0){
 		repairClicks--;
 		Change_Money(false,costPerClick+random_range(-2,2),[mouse_x,mouse_y],false);
 		clickDelay = clickDelayMax;
+		if (!audio_is_playing(sndRepair)) audio_play_sound(sndRepair,SOUND.EFFECTS,false);
 	}
 }
 

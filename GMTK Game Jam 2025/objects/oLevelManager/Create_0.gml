@@ -24,3 +24,5 @@ global.wreckedRailsNumber = 0;
 for (var i = 0; i < instance_number(oRailroad); i++){
 	railArray[i] = instance_find(oRailroad,i);
 }
+
+nextLevel = false;

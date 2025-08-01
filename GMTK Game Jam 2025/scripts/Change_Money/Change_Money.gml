@@ -34,4 +34,9 @@ currMoney.text = plusOrMinus+string(amount)+" $";
 currMoney.color = color;
 global.money += actualAmount;
 
+//sound
+var sound;
+if (add) sound = sndCash; else sound = sndMoneyGone;
+audio_play_sound(sound,SOUND.EFFECTS,false);
+
 }

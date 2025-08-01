@@ -15,6 +15,7 @@ if (lMouse and dragAount > 0){
 		dragAount--;
 		x = mouse_x - offsetX;
 		y = mouse_y - offsetY;
+		if (!audio_is_playing(sndDragging)) audio_play_sound(sndDragging,SOUND.EFFECTS,false);
 	}
 }
 

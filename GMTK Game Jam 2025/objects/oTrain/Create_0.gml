@@ -41,6 +41,14 @@ degreesLeftToTurn = 0;
 dir = startAngle;
 image_angle = startAngle;
 
+//sound
+whistleDelayMax = random_range(5,15)*FPS;
+whistleDelay = whistleDelayMax;
+
+drivingSoundId = -1;
+brakingSoundId = -1;
+hornSoundId = -1;
+
 //shader
 upixelH = shader_get_uniform(shOutline,"pixelH");
 upixelW = shader_get_uniform(shOutline,"pixelW");

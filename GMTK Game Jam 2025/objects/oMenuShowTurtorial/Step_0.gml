@@ -9,6 +9,7 @@ mouse_y <= bbox_bottom){
 	if (mouse_check_button_pressed(mb_left)){
 		global.showTurtorials = !global.showTurtorials
 		Toggle_Show_turtorials();
+		audio_play_sound(sndMenuClick,SOUND.GAME,false);
 	}
 		
 }

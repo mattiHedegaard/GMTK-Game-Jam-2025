@@ -5,7 +5,7 @@ straightSprite = sRailroad;
 occupied = false;
 occupiedBy = noone;
 
-wreckTimerMax = random_range(20,500)*FPS;
+wreckTimerMax = random_range(15,500)*FPS;
 wreckTimer = wreckTimerMax;
 isWrecked = false;
 wreckType = noone;

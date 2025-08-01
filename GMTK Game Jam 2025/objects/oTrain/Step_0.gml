@@ -55,4 +55,30 @@ if (!global.gamePause and !global.turtorialPause){
 			if (passengerArray[i].firstClass) hasFirstClass = true;
 		}
 	}
+	
+	#region //Sound
+	
+	//braking
+	if (braking and !stopped){
+		if (!audio_is_playing(sndTrainBraking)) brakingSoundId = audio_play_sound(sndTrainBraking,SOUND.TRAIN,true);
+	}
+	else audio_stop_sound(brakingSoundId);
+	
+	//Driving
+	if (!braking and !stopped){
+		if (!audio_is_playing(sndDrivingSoundStress)) drivingSoundId = audio_play_sound(sndDrivingSoundStress,SOUND.TRAIN,true);
+		
+		if (whistleDelay > 0) whistleDelay--;
+		if (whistleDelay <= 0){
+			if (!audio_is_playing(sndTrainHorn)) hornSoundId = audio_play_sound(sndTrainHorn,SOUND.TRAIN,false);
+			whistleDelay = whistleDelayMax;
+		}
+	}
+	else{
+		audio_stop_sound(drivingSoundId);
+	}
+	
+	//
+	
+	#endregion	
 }

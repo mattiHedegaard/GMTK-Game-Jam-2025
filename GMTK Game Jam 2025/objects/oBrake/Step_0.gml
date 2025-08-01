@@ -12,6 +12,7 @@ if (!global.gamePause and !global.turtorialPause){
 			train.stopped = stopped;
 	
 			flipDelay = flipDelayMax;
+			audio_play_sound(sndPullingLever,SOUND.EFFECTS,false);
 		}
 	}
 	if (braking) image_index = 1 else image_index = 0;
