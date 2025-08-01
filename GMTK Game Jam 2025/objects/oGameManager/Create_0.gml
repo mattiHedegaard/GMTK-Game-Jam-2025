@@ -2,14 +2,13 @@ randomise();
 managerLayer = "Managers";
 
 //Managers
-global.playerMng	= instance_create_layer(0,0,managerLayer,oPlayerManager);
-global.passengerMng = instance_create_layer(0,0,managerLayer,oPassengerManager);
-//global.levelMng		= instance_create_layer(0,0,managerLayer,oLevelManager);
-global.economyMng	= instance_create_layer(0,0,managerLayer,oEconomyManager);
-global.gridMng		= instance_create_layer(0,0,managerLayer,oGridManager);
+if (!instance_exists(oPlayerManager)) global.playerMng		= instance_create_layer(0,0,managerLayer,oPlayerManager);
+if (!instance_exists(oPassengerManager))global.passengerMng = instance_create_layer(0,0,managerLayer,oPassengerManager);
+if (!instance_exists(oEconomyManager))global.economyMng		= instance_create_layer(0,0,managerLayer,oEconomyManager);
+if (!instance_exists(oGridManager))global.gridMng			= instance_create_layer(0,0,managerLayer,oGridManager);
 
 global.showTurtorials = true;
-global.turtorialMng	= instance_create_layer(0,0,managerLayer,oTurtorialManager);
+if (!instance_exists(oTurtorialManager))global.turtorialMng	= instance_create_layer(0,0,managerLayer,oTurtorialManager);
 
 global.gamePause = false;
 global.turtorialPause = false;

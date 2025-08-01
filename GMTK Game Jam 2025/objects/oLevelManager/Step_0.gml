@@ -18,3 +18,5 @@ for (var i = 0; i < array_length(railArray); i++){
 	if (railArray[i].wrecked) count++;
 }
 global.wreckedRailsNumber = count;
+
+show_debug_message(instance_number(oEconomyManager));
