@@ -11,3 +11,11 @@ else{
 
 if (global.currPatients <= 0 or global.money < 0) Game_Over();
 if (global.money > goal) Next_Level();
+
+//controle number of wrecked rails
+var count = 0;
+for (var i = 0; i < array_length(railArray); i++){
+	if (railArray[i].wrecked) count++;
+}
+global.wreckedRailsNumber = count;
+show_debug_message(global.wreckedRailsNumber)

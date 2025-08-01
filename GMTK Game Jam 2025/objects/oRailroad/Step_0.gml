@@ -9,7 +9,7 @@ if (!global.gamePause and !global.turtorialPause){
 	}
 	
 	//wreck railroads
-	if (!noWrecks){
+	if (!noWrecks and global.wreckedRailsNumber < oLevelManager.maxWreckedRails){
 		if (wreckTimer > 0 and !isWrecked) wreckTimer--;
 	
 		if (wreckTimer <= 0){
@@ -22,7 +22,7 @@ if (!global.gamePause and !global.turtorialPause){
 		straightSprite = sRailroadBroken;
 		
 		if (repairIcon = noone){
-			repairIcon = instance_create_layer(x+23-16,y-16,"Railroad",oRepairIcon); //16 is the center of the drawing, and 23 is where the rotation point of the hammer is
+			repairIcon = instance_create_layer(x+23-16,y-16,"Obstacles",oRepairIcon); //16 is the center of the drawing, and 23 is where the rotation point of the hammer is
 		}
 	}
 	else{

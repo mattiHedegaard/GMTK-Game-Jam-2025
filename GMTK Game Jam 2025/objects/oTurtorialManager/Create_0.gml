@@ -10,9 +10,9 @@ enum TURTORIAL{
 
 turtorial = -1;
 
-seenFirstClass = false;
-seenSomeStations = false;
-seenBroken = false;
-seenObstacle = false;
-seenImpatient = false;
-seenFirstLevel = false;
+seenFirstClass = !global.showTurtorials;
+seenSomeStations = !global.showTurtorials;
+seenBroken = !global.showTurtorials;
+seenObstacle = !global.showTurtorials;
+seenImpatient = !global.showTurtorials;
+seenFirstLevel = !global.showTurtorials;

@@ -16,3 +16,11 @@ if (!global.turtorialMng.seenSomeStations){
 	global.turtorialMng.turtorial = TURTORIAL.SOME_STATIONS;
 	global.turtorialPause = true;
 }
+
+//controle number of wrecked rails
+railArray = [];
+global.wreckedRailsNumber = 0;
+
+for (var i = 0; i < instance_number(oRailroad); i++){
+	railArray[i] = instance_find(oRailroad,i);
+}

@@ -14,8 +14,6 @@ global.turtorialPause = true;
 
 draw_sprite(turImage,0,guiW/2,guiH-guiH/6);
 
-if (whichNext == noone) show_debug_message("noone"); else show_debug_message(whichNext)
-
 if (mouse_check_button_pressed(mb_left)){
 	if (whichNext != noone){
 		global.turtorialMng.turtorial = whichNext;
