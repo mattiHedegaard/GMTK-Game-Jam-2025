@@ -8,7 +8,7 @@ global.passengerMng = instance_create_layer(0,0,managerLayer,oPassengerManager);
 global.economyMng	= instance_create_layer(0,0,managerLayer,oEconomyManager);
 global.gridMng		= instance_create_layer(0,0,managerLayer,oGridManager);
 
-global.showTurtorials = false;
+global.showTurtorials = true;
 global.turtorialMng	= instance_create_layer(0,0,managerLayer,oTurtorialManager);
 
 global.gamePause = false;

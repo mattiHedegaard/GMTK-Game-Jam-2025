@@ -3,7 +3,6 @@ image_index = choose(0,1);
 
 dragAmountMax = 3;
 dragAount = dragAmountMax;
-dragging = false;
 
 offsetX = 0;
 offsetY = 0;

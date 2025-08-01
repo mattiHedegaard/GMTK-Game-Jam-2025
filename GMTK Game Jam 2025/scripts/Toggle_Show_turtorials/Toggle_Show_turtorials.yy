@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Toggle_Show_turtorials",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Toggle_Show_turtorials",
+  "parent":{
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

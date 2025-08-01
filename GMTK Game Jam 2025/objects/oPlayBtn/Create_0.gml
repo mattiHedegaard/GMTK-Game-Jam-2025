@@ -1,0 +1,1 @@
+effect = room_goto_next;
