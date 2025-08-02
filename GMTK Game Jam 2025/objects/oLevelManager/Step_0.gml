@@ -4,9 +4,11 @@ if (global.gamePause){
 	var margin = 8;
 	
 	if (!instance_exists(oRestartLevel)) instance_create_depth(rWidth-margin*8,0+margin*8,-999,oRestartLevel);
+	if (!instance_exists(oGoHomeBtn)) instance_create_depth(0+margin*8,0+margin*8,-999,oGoHomeBtn);
 }
 else{
 	if (instance_exists(oRestartLevel)) instance_destroy(oRestartLevel);
+	if (instance_exists(oGoHomeBtn)) instance_destroy(oGoHomeBtn);
 }
 
 if (global.currPatients <= 0 or global.money < 0 and !global.gameOver) Game_Over();

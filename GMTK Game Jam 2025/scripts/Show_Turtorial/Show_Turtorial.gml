@@ -12,7 +12,7 @@ var guiW = display_get_gui_width();
 
 global.turtorialPause = true;
 
-draw_sprite(turImage,0,guiW/2,guiH-guiH/6);
+draw_sprite(turImage,0,guiW/2,guiH-guiH/4);
 
 if (keyboard_check_pressed(vk_space)){
 	if (whichNext != noone){

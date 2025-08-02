@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"menu",
-    "path":"folders/Sprites/menu.yy",
+    "path":"folders/Sprites/icons/menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

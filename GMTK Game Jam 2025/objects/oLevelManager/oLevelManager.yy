@@ -32,7 +32,6 @@
     {"$GMObjectProperty":"v1","%Name":"goal","filters":[],"listItems":[],"multiselect":false,"name":"goal","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"startPatients","filters":[],"listItems":[],"multiselect":false,"name":"startPatients","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"startMoney","filters":[],"listItems":[],"multiselect":false,"name":"startMoney","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"containsDifferentStations","filters":[],"listItems":[],"multiselect":false,"name":"containsDifferentStations","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"maxWreckedRails","filters":[],"listItems":[],"multiselect":false,"name":"maxWreckedRails","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":1,},
   ],
   "resourceType":"GMObject",

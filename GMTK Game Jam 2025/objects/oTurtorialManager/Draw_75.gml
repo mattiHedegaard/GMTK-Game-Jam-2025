@@ -19,7 +19,7 @@ if (inTurtorial){
 	
 		case TURTORIAL.FIRST_LEVEL:
 			seenFirstLevel = true;
-			Show_Turtorial(stFirstLevel,TURTORIAL.IMPATIENT);
+			Show_Turtorial(stFirstLevel,TURTORIAL.SOME_STATIONS);
 		break;
 		
 		case TURTORIAL.FIRST_CLASS:
@@ -29,7 +29,7 @@ if (inTurtorial){
 	
 		case TURTORIAL.IMPATIENT:
 			seenImpatient = true;
-			Show_Turtorial(stImpatient,noone);
+			Show_Turtorial(stImpatient,TURTORIAL.WINNING_LOSING);
 		break;
 	
 		case TURTORIAL.OBSTACLE:
@@ -44,7 +44,12 @@ if (inTurtorial){
 		
 		case TURTORIAL.SOME_STATIONS:
 			seenSomeStations = true;
-			Show_Turtorial(stSomeStations,noone);
+			Show_Turtorial(stSomeStations,TURTORIAL.IMPATIENT);
+		break;
+		
+		case TURTORIAL.WINNING_LOSING:
+			seenWinningLosing = true;
+			Show_Turtorial(stWinningLoosing,noone);
 		break;
 	}
 }

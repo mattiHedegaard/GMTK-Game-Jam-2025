@@ -7,13 +7,8 @@ global.currPatients = global.startPatients;
 
 
 //Turtorials
-if (level == 1){
+if (level == 1 and !global.turtorialMng.seenFirstLevel){
 	global.turtorialMng.turtorial = TURTORIAL.FIRST_LEVEL;
-	global.turtorialPause = true;
-}
-
-if (!global.turtorialMng.seenSomeStations){
-	global.turtorialMng.turtorial = TURTORIAL.SOME_STATIONS;
 	global.turtorialPause = true;
 }
 

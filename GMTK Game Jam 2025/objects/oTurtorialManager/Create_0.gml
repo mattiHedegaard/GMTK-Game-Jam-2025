@@ -5,7 +5,8 @@ enum TURTORIAL{
 	RAIL_BROKEN,
 	OBSTACLE,
 	IMPATIENT,
-	FIRST_CLASS
+	FIRST_CLASS,
+	WINNING_LOSING
 }
 
 turtorial = -1;
@@ -16,3 +17,4 @@ seenBroken = !global.showTurtorials;
 seenObstacle = !global.showTurtorials;
 seenImpatient = !global.showTurtorials;
 seenFirstLevel = !global.showTurtorials;
+seenWinningLosing = !global.showTurtorials;

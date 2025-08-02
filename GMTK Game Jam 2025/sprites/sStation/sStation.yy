@@ -22,6 +22,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"cca35b20-46b2-4d88-b532-8172698554ca","blendMode":0,"displayName":"default","isLocked":false,"name":"cca35b20-46b2-4d88-b532-8172698554ca","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"edae63ce-58cf-4abe-a5f2-7cce5c9dcca5","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"edae63ce-58cf-4abe-a5f2-7cce5c9dcca5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sStation",
   "nineSlice":null,

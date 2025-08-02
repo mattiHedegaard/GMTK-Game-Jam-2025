@@ -13,6 +13,6 @@ mouse_y <= bbox_bottom){
 
 if (clicked){
 	delay--;
-	if (delay <= 0) script_execute(effect);
+	if (delay <= 0) room_goto(target);
 }
 

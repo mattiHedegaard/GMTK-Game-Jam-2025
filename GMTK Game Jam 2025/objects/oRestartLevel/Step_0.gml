@@ -3,6 +3,11 @@ if (mouse_check_button_pressed(mb_left))
 	mouse_x <= bbox_right and
 	mouse_y >= bbox_top and
 	mouse_y <= bbox_bottom){
-	
-	Restart_Level();
+	audio_play_sound(sndMenuClick,SOUND.GAME,false);
+	clicked = true;
+}
+
+if (clicked){
+	delay--;
+	if (delay <= 0) Restart_Level();
 }

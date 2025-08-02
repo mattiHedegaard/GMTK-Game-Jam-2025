@@ -3,6 +3,7 @@
 function Next_Level(){
 global.gamePause = true;
 global.pauseText = "CONGRATULATIONS!";
+global.level++;
 
 
 var rWidth = room_width;

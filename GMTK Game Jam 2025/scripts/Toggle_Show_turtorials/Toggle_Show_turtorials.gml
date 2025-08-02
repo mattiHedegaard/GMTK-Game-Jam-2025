@@ -8,5 +8,6 @@ with (global.turtorialMng){
 	seenObstacle = !global.showTurtorials;
 	seenImpatient = !global.showTurtorials;
 	seenFirstLevel = !global.showTurtorials;
+	seenWinningLosing = !global.showTurtorials;
 }
 }
