@@ -13,7 +13,7 @@ var rWidth = display_get_gui_width();
 var rHeight = display_get_gui_height();
 
 //level
-draw_text(0+margin*4,0+margin*2,$"Level: {global.level}");
+draw_text(0+margin*4,0+margin*2,$"Level: {level}");
 
 //goal
 draw_set_font(fDogica_meduim_big);
