@@ -1,4 +1,5 @@
 if (!global.gamePause and !global.turtorialPause){
+	
 	if (place_meeting(x,y,oTrain)){
 		occupied = true;
 		occupiedBy = instance_place(x,y,oTrain);
@@ -6,6 +7,10 @@ if (!global.gamePause and !global.turtorialPause){
 	else if (!wrecked) {
 		occupied = false;
 		occupiedBy = noone;
+	}
+	if (alwaysBroken) {
+		occupied = true;
+		occupiedBy = instance_place(x,y,oTrainDummy);
 	}
 	
 	//wreck railroads

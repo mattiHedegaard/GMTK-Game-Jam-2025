@@ -1,0 +1,46 @@
+Some stations can only be used to DROP OFF passengers
+
+Some only to PICK UP passengers
+
+while some offers BOTH
+
+
+Obstacles can fall onto the railroad
+
+Drag them off the rail using the mouse
+
+They are HEAVY! it may take more than one try!
+
+
+Passengers can get to impatient
+
+If they do, they will return their ticket
+
+You will then LOSE their ticket value
+
+
+Controle the trains using the matching levers
+
+Pick up and drop off passengers at stations to earn money
+
+
+Passengers have a chance of buying a first class ticket
+
+First class tickets are worth DOUBLE!
+
+
+Rails can brake!
+
+Repair them buy clicking on the rail
+
+
+Win by earning enough money!
+
+You lose if your customers happines drops to 0
+
+Or if you lose all your money 0$
+
+
+If a rail is blocked
+
+The train will take routes around it if it is allowed

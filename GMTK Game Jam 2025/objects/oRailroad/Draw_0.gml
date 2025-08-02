@@ -1,4 +1,5 @@
 var touchingInstanceNum = 0;
+if (alwaysBroken) draw_set_alpha(0);
 
 //draw outer railroad sprites
 for (var i = 0; i < array_length(touchingArray); i++){

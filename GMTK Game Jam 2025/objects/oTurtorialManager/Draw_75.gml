@@ -51,5 +51,10 @@ if (inTurtorial){
 			seenWinningLosing = true;
 			Show_Turtorial(stWinningLoosing,noone);
 		break;
+		
+		case TURTORIAL.AROUND_TRAIN:
+			seenAroundTrains = true;
+			Show_Turtorial(stAroundTrains,noone);
+		break;
 	}
 }
