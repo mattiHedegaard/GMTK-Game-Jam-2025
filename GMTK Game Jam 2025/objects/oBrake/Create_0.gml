@@ -5,7 +5,7 @@ color = c_white;
 braking = true;
 stopped = true;
 
-flipDelayMax = 1.6*FPS;
+flipDelayMax = 1.5*FPS;
 flipDelay = 0;
 
 color = noone;
