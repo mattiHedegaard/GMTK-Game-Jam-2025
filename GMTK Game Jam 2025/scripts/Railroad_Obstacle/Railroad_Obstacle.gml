@@ -22,7 +22,7 @@ if (!place_meeting(x,y,obstacle)){
 	wrecked = false;
 	occupied = false;
 	occupiedBy = noone;
-	wreckTimer = wreckTimerMax;
+	wreckTimer = random_range(wreckRange[0],wreckRange[1])*FPS;;
 }
 
 

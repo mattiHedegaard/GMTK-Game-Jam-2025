@@ -3,8 +3,10 @@ for (var i = 0; i < instance_number(oTrain); i++){
 	if (currTrain.trainId == brakeId) {
 		train = currTrain;
 		train.brakeLever = self;
-		color = currTrain.color;
-		image_blend = color;
 		break;
 	}
 }
+
+color = colorArray[brakeId]
+
+image_blend = color;

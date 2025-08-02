@@ -36,7 +36,7 @@ if (repairClicks == 0){
 	occupied = false;
 	occupiedBy = noone;
 	wrecked = false;
-	wreckTimer = wreckTimerMax;
+	wreckTimer = random_range(wreckRange[0],wreckRange[1])*FPS;;
 }
 
 }

@@ -3,7 +3,7 @@
 function Draw_levelinfo(){
 draw_set_alpha(1);
 draw_set_font(fDogica_big);
-draw_set_halign(fa_center);
+draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_color(c_white);
 
@@ -13,14 +13,16 @@ var rWidth = display_get_gui_width();
 var rHeight = display_get_gui_height();
 
 //level
-draw_text(rWidth/2,0+margin*2,$"Level: {global.level}");
+draw_text(0+margin*4,0+margin*2,$"Level: {global.level}");
 
 //goal
 draw_set_font(fDogica_meduim_big);
 
-draw_text(rWidth/2-(margin*10),0+margin*10,$"Goal:");
+
+
+draw_text(0+margin*4,0+margin*10,$"Goal:");
 
 draw_set_color(c_yellow);
-draw_text(rWidth/2+(margin*10),0+margin*10,$"{global.goal}$");
+draw_text(0+margin*28,0+margin*10,$"{global.goal}$");
 
 }

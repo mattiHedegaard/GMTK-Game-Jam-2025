@@ -12,7 +12,7 @@ else{
 }
 
 if (global.currPatients <= 0 or global.money < 0 and !global.gameOver) Game_Over();
-if (global.money > goal and !nextLevel) Next_Level();
+if (global.money >= goal and !nextLevel) Next_Level();
 
 //controle number of wrecked rails
 var count = 0;

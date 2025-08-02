@@ -1,2 +1,2 @@
 /// @desc Restart
-game_restart();
+//game_restart();

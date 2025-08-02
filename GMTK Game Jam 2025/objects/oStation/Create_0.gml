@@ -5,7 +5,14 @@ currPassengers = 0;
 passengerArray =[];
 hasFirstClass = false;
 
-image_blend = color;
+color = noone;
+colorArray = [
+	$FFFFD465,
+	$FF7B77EE,
+	$FF7FFFFF,
+	$FF65BCFF
+]
+
 if (onlyDropoff) image_index = 1;
 if (onlyPickup) image_index = 2;
 

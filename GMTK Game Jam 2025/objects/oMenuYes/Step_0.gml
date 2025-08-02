@@ -3,7 +3,7 @@ mouse_x <= bbox_right and
 mouse_y >= bbox_top and
 mouse_y <= bbox_bottom){
 	
-	if (mouse_check_button_pressed(mb_left)){
+	if (mouse_check_button_pressed(mb_left) and !clicked){
 		audio_play_sound(sndMenuClick,SOUND.GAME,false);
 		clicked = true;
 	}

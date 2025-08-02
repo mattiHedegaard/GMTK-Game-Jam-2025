@@ -9,6 +9,13 @@ enum TRAIN_DIR {
 	LEFT,
 	DOWN
 }
+color = noone;
+colorArray = [
+	$FFFFD465,
+	$FF7B77EE,
+	$FF7FFFFF,
+	$FF65BCFF
+];
 
 hasFirstClass = false;
 currPassengers = 0;

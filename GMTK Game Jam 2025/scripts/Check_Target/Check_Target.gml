@@ -12,14 +12,16 @@ var checkDis = 25;
 var imAng = image_angle;
 var checkAnglesArray = [
 	0,
-	90, //left
-	-90 //right
+	-90, //right
+	90	//left
+
 ]
 var dirTranslatorArray = [
 	0,
-	1, //left
-	-1 //right
+	-1, //right
+	1	//left
 ]
+var goAhead = true;
 
 for (var i = 0; i < array_length(checkAnglesArray); i++){
 		track = collision_point(
@@ -34,11 +36,12 @@ for (var i = 0; i < array_length(checkAnglesArray); i++){
 		targetX = track.x;
 		targetY = track.y;
 		dir = dirTranslatorArray[i];
+		if (i != 0) goAhead = false;
 
 		break;
 	}
 }
-if (track.occupied){
+if (track.occupied and track.occupiedBy.id != self.id or track.notThisWay and !goAhead){
 	var altTrack = noone;
 	// look for alternate route if ccupied
 	for (var j = 0; j < array_length(checkAnglesArray); j++){
@@ -51,7 +54,12 @@ if (track.occupied){
 		)
 		
 		if (altTrack != noone){
-			if (altTrack.occupied or altTrack.notThisWay) continue; else{
+			if (altTrack.occupied or altTrack.notThisWay){
+				braking = true;
+				brakeLever.braking = braking;
+				emergencyBrakeMp = emergencyBrakeMpMax;
+				continue;
+			} else{
 				targetX = altTrack.x;
 				targetY = altTrack.y;
 				track = altTrack;
@@ -61,9 +69,7 @@ if (track.occupied){
 				emergencyBrakeMp = 1;
 			}
 		}else{
-			braking = true;
-			brakeLever.braking = braking;
-			emergencyBrakeMp = emergencyBrakeMpMax;
+			
 		}
 	}
 }
