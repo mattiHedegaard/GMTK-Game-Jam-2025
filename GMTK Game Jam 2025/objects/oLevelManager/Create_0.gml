@@ -20,3 +20,5 @@ for (var i = 0; i < instance_number(oRailroad); i++){
 }
 
 nextLevel = false;
+
+global.gameOver = false;

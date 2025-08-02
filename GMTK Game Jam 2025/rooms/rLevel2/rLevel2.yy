@@ -40,6 +40,7 @@
     {"name":"inst_610C4560","path":"rooms/rLevel2/rLevel2.yy",},
     {"name":"inst_CD77341","path":"rooms/rLevel2/rLevel2.yy",},
     {"name":"inst_4876A6D6","path":"rooms/rLevel2/rLevel2.yy",},
+    {"name":"inst_130A99E2","path":"rooms/rLevel2/rLevel2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -79,7 +80,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oStation","path":"objects/oStation/oStation.yy",},"propertyId":{"name":"maxPassengers","path":"objects/oStation/oStation.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"7",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":160.0,},
       ],"layers":[],"name":"Stations","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRInstanceLayer":"","%Name":"Railroad","depth":500,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+    {"$GMRInstanceLayer":"","%Name":"Railroad","depth":500,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_5CFCBF3D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5CFCBF3D","objectId":{"name":"oRailroad","path":"objects/oRailroad/oRailroad.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":128.0,},
         {"$GMRInstance":"v2","%Name":"inst_3C0658B6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C0658B6","objectId":{"name":"oRailroad","path":"objects/oRailroad/oRailroad.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oRailroad","path":"objects/oRailroad/oRailroad.yy",},"propertyId":{"name":"noWrecks","path":"objects/oRailroad/oRailroad.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
@@ -116,6 +117,7 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":128.0,},
         {"$GMRInstance":"v2","%Name":"inst_CD77341","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_CD77341","objectId":{"name":"oRailroad","path":"objects/oRailroad/oRailroad.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":128.0,},
         {"$GMRInstance":"v2","%Name":"inst_4876A6D6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4876A6D6","objectId":{"name":"oRailroad","path":"objects/oRailroad/oRailroad.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":224.0,},
+        {"$GMRInstance":"v2","%Name":"inst_130A99E2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_130A99E2","objectId":{"name":"oOneWaySign","path":"objects/oOneWaySign/oOneWaySign.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":180.0,"scaleX":1.0,"scaleY":1.0,"x":392.0,"y":160.0,},
       ],"layers":[],"name":"Railroad","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4285248107,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

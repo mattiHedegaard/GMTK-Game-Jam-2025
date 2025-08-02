@@ -11,6 +11,11 @@ mouse_y <= bbox_bottom){
 	}
 		
 }
+if (keyboard_check_pressed(vk_escape)){
+	global.gamePause = true;
+	global.pauseText = "Are you sure?";
+	areYouSure = true;
+}
 var rWidth = room_width;
 var rHeight = room_height;
 var margin = 8;

@@ -22,7 +22,7 @@ if (!global.gamePause and !global.turtorialPause){
 		straightSprite = sRailroadBroken;
 		
 		if (repairIcon = noone){
-			repairIcon = instance_create_layer(x+23-16,y-16,"Obstacles",oRepairIcon); //16 is the center of the drawing, and 23 is where the rotation point of the hammer is
+			repairIcon = instance_create_layer(x+23-16,y-16,"Managers",oRepairIcon); //16 is the center of the drawing, and 23 is where the rotation point of the hammer is
 		}
 	}
 	else{

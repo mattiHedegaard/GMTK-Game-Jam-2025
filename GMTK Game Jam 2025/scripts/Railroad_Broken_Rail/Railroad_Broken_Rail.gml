@@ -7,7 +7,7 @@ if (!global.turtorialMng.seenBroken){
 }
 
 if (!broken){
-	repairClicks = round(random_range(1,4));
+	repairClicks = round(random_range(1,3));
 	repaired = false;
 	fixCost = random_range(10,20);
 	costPerClick = (fixCost/repairClicks);

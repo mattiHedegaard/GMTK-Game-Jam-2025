@@ -2,13 +2,7 @@ if (!global.gamePause and !global.turtorialPause){
 	if (patients > 0){
 		patients --;
 	
-		if (patients <= 0){
-			//Turtorial
-			if (!global.turtorialMng.seenImpatient){
-				global.turtorialPause = true;
-				global.turtorialMng.turtorial = TURTORIAL.IMPATIENT;
-			}
-			
+		if (patients <= 0){			
 			Change_Money(false,ticketValue,[x,y],firstClass);
 			
 			if (firstClass) global.currPatients -= 2; else global.currPatients -= 1;

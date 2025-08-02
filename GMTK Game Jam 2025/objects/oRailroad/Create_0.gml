@@ -13,7 +13,7 @@ broken = false;
 wrecked = false;
 
 //broken rail
-repairClicks = round(random_range(2,5));
+repairClicks = round(random_range(1,3));
 repaired = false;
 fixCost = random_range(10,20);
 costPerClick = fixCost/repairClicks;

@@ -1,6 +1,6 @@
 randomise();
 managerLayer = "Managers";
-global.level = 1;
+global.level = 5;
 global.gameWon = false;
 
 
@@ -25,11 +25,11 @@ global.roomArray = [
 	rMenu,
 	rLevel1,
 	rLevel2,
-	rLevel3,
 	rLevel4,
 	rLevel5,
-	rLevel6,
 	rLevel7,
+	rLevel3,
+	rLevel6,
 	rLevel8,
 ]
 global.totalLevels = array_length(global.roomArray)-1;
