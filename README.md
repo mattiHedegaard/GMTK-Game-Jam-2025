@@ -1,2 +1,4 @@
-# GMTK Game Jam 2025
- Participation in GMTK's Game Jam 2025
+# Matti Hedegaards participation in GMTK Game Jam 2025
+This project were made to participate in Game Makers Toolkits Game Jam.
+The Game Jams theme were "Loop", therefore this project ended up as trains going in loops, picking up passegners and driving them to their destinations to earn money.
+The project were made single handed by me, Matii Hedegaard, and were made in 96 hours.
