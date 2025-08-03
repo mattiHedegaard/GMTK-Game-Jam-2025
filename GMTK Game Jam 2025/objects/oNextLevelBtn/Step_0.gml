@@ -15,7 +15,7 @@ mouse_y <= bbox_bottom){
 if (clicked){
 	delay--;
 	if (delay <= 0){
-		if (global.level < global.totalLevels){
+		if (oLevelManager.level < global.totalLevels){
 			target = global.roomArray[global.level]
 		}
 		else{
