@@ -1,6 +1,6 @@
 randomise();
 managerLayer = "Managers";
-global.level = 2;
+global.level = 1;
 global.gameWon = false;
 
 

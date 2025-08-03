@@ -64,9 +64,13 @@ if (track.occupied and track.occupiedBy.id != self.id or track.notThisWay and !g
 				targetY = altTrack.y;
 				track = altTrack;
 				dir = dirTranslatorArray[j];
-				braking = false;
-				brakeLever.braking = braking;
-				emergencyBrakeMp = 1;
+				if (brakeLever.flipDelay-(0.5*FPS) <= 0){
+					braking = false;
+					brakeLever.braking = braking;
+					emergencyBrakeMp = 1;
+				}
+				else emergencyBrakeMp = 1;
+				
 			}
 		}else{
 			
