@@ -16,7 +16,6 @@ if (clicked){
 	delay--;
 	if (delay <= 0){
 		if (global.level < global.totalLevels){
-			global.level++;
 			target = global.roomArray[global.level]
 		}
 		else{

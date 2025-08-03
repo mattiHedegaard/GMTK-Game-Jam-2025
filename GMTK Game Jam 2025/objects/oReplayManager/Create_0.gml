@@ -1,11 +1,11 @@
-lvl1 = false;
-lvl2 = false;
-lvl3 = false;
-lvl4 = false;
-lvl5 = false;
-lvl6 = false;
-lvl7 = false;
-lvl8 = false;
+lvl1 = true;
+lvl2 = true;
+lvl3 = true;
+lvl4 = true;
+lvl5 = true;
+lvl6 = true;
+lvl7 = true;
+lvl8 = true;
 levelsCompleted = [
 	lvl1,
 	lvl2,
