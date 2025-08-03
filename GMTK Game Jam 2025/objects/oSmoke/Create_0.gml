@@ -1,12 +1,13 @@
-timer = random_range(0.2,0.5)*FPS;
-var alpha = random_range(0.3,0.7);
+timer = 0;
+var alpha = random_range(0.5,0.85);
 spd = random_range(2,4)/FPS;
 scalingSpd = random_range(0.2,1.5)/FPS;
+alphaSpd = 1/FPS;
 
 //cos
-cosHoverTimer = 0 + random_range(1,360);
-cosDistance = 1/FPS;
-cosSpd = 1/FPS;
+hoverTimer = 0 + random_range(1,360);
+distance = 1/FPS;
+spd = 1/FPS;
 
 var colors = [
 	#B5B5B5,
