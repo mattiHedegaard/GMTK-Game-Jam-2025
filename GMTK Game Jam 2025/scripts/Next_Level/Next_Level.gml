@@ -4,6 +4,7 @@ function Next_Level(){
 global.gamePause = true;
 global.pauseText = "CONGRATULATIONS!";
 global.replayMng.levelsCompleted[global.level-1] = true;
+global.level++;
 
 var amount = 8;
 if (global.level == global.totalLevels){
