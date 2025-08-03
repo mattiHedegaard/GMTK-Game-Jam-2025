@@ -12,7 +12,7 @@ if (global.level == global.totalLevels){
 	amount = 12
 	global.gameWon = true;
 }
-if (level < global.totalLevels)global.level++;
+if (level < global.totalLevels and !global.gameWon)global.level++;
 show_debug_message(global.totalLevels)
 show_debug_message(global.level)
 

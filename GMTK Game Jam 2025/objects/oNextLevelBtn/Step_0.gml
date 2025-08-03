@@ -21,6 +21,9 @@ if (clicked){
 		else{
 			target = rMenu;
 		}
+		if (global.gameWon) {
+			target = rMenu;
+		}
 		room_goto(target);
 		global.gamePause = false;
 	}
