@@ -1,3 +1,3 @@
 /// @desc Restart
 //game_restart();
-Restart_Level();
+if (room =! rMenu) Restart_Level();

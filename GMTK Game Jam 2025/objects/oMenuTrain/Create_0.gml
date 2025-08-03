@@ -1,15 +1,3 @@
-enum TRAIN_TYPE{
-	FRONT,
-	BACK,
-	NONE
-}
-enum TRAIN_DIR {
-	RIGHT,
-	UP,
-	LEFT,
-	DOWN
-}
-color = noone;
 colorArray = [
 	$FFFFD465,
 	$FF7B77EE,
@@ -27,16 +15,16 @@ filling = false;
 dropPassengerTimerMax = 1*FPS;
 dropPassengerTimer = dropPassengerTimerMax;
 
-state = sm_train_driving;
-braking = true;
-stopped = true;
+state = sm_train_driving_Menu;
+braking = false;
+stopped = false;
 brakeLever = noone;
 
 track = noone;
 targetArray = [-1,-1,0];
 movingToTarget = false;
 spd = 0;
-targetSpd = 0;
+targetSpd = maxSpd;
 //maxSpd = 1;
 accalarationSpd = 150;
 deaccalarationSpd = 50;
@@ -55,16 +43,9 @@ smokeSpawnTimermax = random_range(smokeRR[0],smokeRR[1]);
 smokeSpawnTimer = 0;
 
 //sound
-whistleDelayMax = random_range(5,15)*FPS;
+whistleDelayMax = random_range(10,20)*FPS;
 whistleDelay = whistleDelayMax;
 
 drivingSoundId = -1;
 brakingSoundId = -1;
 hornSoundId = -1;
-
-//shader
-upixelH = shader_get_uniform(shOutline,"pixelH");
-upixelW = shader_get_uniform(shOutline,"pixelW");
-texelW = texture_get_texel_width(sprite_get_texture(sprite_index,0));
-texelH = texture_get_texel_height(sprite_get_texture(sprite_index,0));
-outlineColor = shader_get_uniform(shOutline,"outlineColor");

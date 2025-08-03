@@ -23,6 +23,7 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
 draw_set_color(c_black);
+if (currPassengers != 0) draw_set_color(c_white);
 if (currPassengers > maxPassengers*0.5) draw_set_color(c_orange);
 if (currPassengers > maxPassengers*0.8) draw_set_color(c_red);
 

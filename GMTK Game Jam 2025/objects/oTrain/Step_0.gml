@@ -56,6 +56,24 @@ if (!global.gamePause and !global.turtorialPause){
 		}
 	}
 	
+	#region //smoke
+
+if (!stopped){
+	if (smokeSpawnTimer > 0) smokeSpawnTimer--;
+
+	if (smokeSpawnTimer <= 0){
+		var imAngle = image_angle;
+		var dx = lengthdir_x(8,imAngle);
+		var dy = lengthdir_y(8,imAngle);
+	
+		var currSmoke = instance_create_layer(x+dx,y+dy,"Passengers",oSmoke);
+		
+		smokeSpawnTimer = random_range(smokeRR[0],smokeRR[1]);
+	}
+}
+	
+#endregion
+	
 	#region //Sound
 	
 	//braking
