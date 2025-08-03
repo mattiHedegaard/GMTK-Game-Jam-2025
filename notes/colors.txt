@@ -1,5 +1,0 @@
-colors:
-blue: $FFFFD465
-red: $FF7B77EE
-yellow: $FF7FFFFF
-orange: $FF65BCFF
