@@ -3,6 +3,8 @@ This project were made to participate in Game Makers Toolkits 2025 Game Jam.
 The Game Jam's theme were "Loop", therefore this project ended up as trains going in loops, picking up passengers and driving them to their destinations to earn money.
 The project were made alone by me, Matti Hedegaard, and were made in 96 hours the Game Jam took place.
 
+> Project were created using Gamemaker Studio 2.
+
 ## itch.io
 [check out the itch.io page](https://oakforge.itch.io/train-wreck)
 
